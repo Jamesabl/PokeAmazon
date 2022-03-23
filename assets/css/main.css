@@ -2493,7 +2493,9 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-
+.wrapper{
+	padding: 2px;
+}
 @media screen and (max-width: 1024px) {
 	.image-grid{
 		--num-cols: 2;
