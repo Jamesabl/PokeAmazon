@@ -31,4 +31,16 @@
 			offset: function() { return $nav.height(); }
 		});
 
+
+
+
+		
+		const btns = document.querySelectorAll('.close');
+
+		btns.forEach(btn => {
+			btn.addEventListener('click', (e) => {
+				e.target.parentNode.remove();
+			});
+		});
+
 })(jQuery);
